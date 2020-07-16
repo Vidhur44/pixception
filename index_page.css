@@ -1,0 +1,315 @@
+body {
+  font-family: 'Poppins';
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+ }
+
+.firstsec {
+   background-image: url(m13.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.firstsec img{
+  width: 5em;
+  height: 5em;
+  transform: translateY(1.79em);
+}
+
+.mouse{
+ width: 50px;
+ height: 50px;
+ border: 2px solid white;
+ border-radius: 25px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ margin-top: 20%;
+ padding-top: 6%;
+}
+
+.section-0 i {
+ width: 20px;
+ height: 20px;
+ background-color: chartreuse;
+ border-radius: 25px;
+ transform: translateY(-3em);
+ animation: fading 2s ease-in infinite backwards;
+}
+
+@keyframes fading{
+ 0%{
+   opacity: 0;
+ }
+ 50%{
+   opacity: 0.5;
+ }
+ 100%{
+   opacity: 1;
+ }
+}
+
+.section-0 h4{
+ text-align: center;
+ color: white;
+ transform: translateY(8em);
+ margin: auto;
+}
+
+.btn{
+ transform: translateY(10.5em);
+ align-self: center;
+ width: 6em;
+ height: 2.8em;
+}
+
+/* GEAR SECTION */
+
+.section-1{
+ height: fit-content;
+}       
+
+.section-1 img{
+ width: 280px;
+ height: 245x;
+ transform: translateY(7em);
+}
+ 
+h3{
+ text-align: center;
+ color: rgba(0,0,0,0.62);
+}
+
+td, p{
+
+ color: rgba(0,0,0, 0.68);
+ letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .section-1 img{
+      width: 200px;
+      height: 160px;
+    }
+
+    .section-2 img{
+       width: 150px;
+       height: 110px;
+       padding: 40px;
+    }
+    .mouse {
+     transform: translateY(8em);
+   }
+   .section-0 i{
+     transform: translateY(-1.6em);
+   }
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+.section-0 i{
+ transform: translateY(-1em);
+}
+
+.section-1 img{
+   transform: translate(10em,1em);
+} 
+
+.section-2 img{
+ transform: translate(7em);
+}
+
+.section-2 p{
+ text-align: center;
+}
+
+.section-4 h6{
+ transform: translateY(2.3em);
+ color: white;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+  .section-1 img{
+   padding: 10px;
+   transform: translate(7em,2em);
+ } 
+  
+ .section-2 img{
+   width: 100px;
+   height: 70px;
+   transform: translateX(0.6em);
+ }
+
+  .mouse {
+transform: translateY(12em);
+  }
+
+  .section-0 i{
+    transform: translateY(-14px);
+  }
+
+  .section-4 h6{
+font-size: small;
+transform: translateY(4em);
+color: white;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 412px) {
+
+  .section-0 i{
+    transform: translateY(-0.5em);
+  }
+
+  .section-2 img{
+    transform: translate(-11px);
+  }
+
+
+}
+
+
+@media only screen and (max-width: 360px) {
+
+.section-1 img{
+ transform: translate(2em,1.5em);
+}
+
+ .section-2 img{
+   transform: translate(-29px);
+ }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+ .section-0 i{
+   transform: translateY(-0.2em);
+ }
+ 
+   .section-2 img{
+     transform: translate(-35px);
+   }
+ 
+ 
+ }
+
+/* ABOUT SECTION */
+
+.section-2{
+ background-image: url('im2.jpg');
+ background-size: cover;
+ background-attachment: fixed;
+ margin-top: 4%;
+ padding-bottom: 4%;
+ padding-top: 4%;
+}
+
+h3.abt{
+ color: white;
+}
+
+.section-2 img{
+ width: 270px;
+ height: 270px;
+ margin-left: 15%;
+}
+
+.section-2 p{
+ color: #fff;
+ font-size: small;
+ }
+
+ span{
+ color: tomato;
+ font-size: large;
+ }
+
+
+ /* SHOOT SECTION */
+
+.section-3{
+ height: 100vh;
+}
+
+h3.book{
+color: rgba(0,0,0,0.62);
+}
+
+h4.con{
+ text-align: center;
+ color: crimson;
+ transform: translateY(0.5em);
+ font-size: 28px;
+}
+
+input,textarea{
+ box-shadow: 0px 3px 10px gray;
+}
+
+.card{
+ height: 12em;
+ width: auto;
+ box-shadow: 0px 3px 10px gray;
+}
+
+h6{
+ transform: translateY(-15em);
+ font-size: large;
+ color: rgba(0,0,0, 0.68);
+}
+
+.card i{
+ color: crimson;
+}
+
+.col-md-6{
+ padding-top: 5em;
+}
+
+.btn-dark{
+ transform: translateY(1em);
+}
+
+i{
+ text-align: center;
+ color: rgba(0,0,0, 0.7);
+}
+
+/* FOOTER */
+
+.section-4{
+ height: 37vh;
+ background-color: crimson;
+}
+
+.section-4 i{
+ padding: 12px;
+ transform: translateY(1em);
+ font-size: large;
+ padding-top: 5em;
+ color: white;
+}
+
+.section-4 i:hover{
+ color: black;
+}
